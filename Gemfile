@@ -4,6 +4,20 @@ ruby "3.0.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
+gem "bcrypt"
+gem "faker"
+gem "carrierwave"
+gem "mini_magick"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
+gem "bootstrap-sass"
+gem "sass-rails"
+gem "uglifier"
+gem "coffee-rails"
+gem "jquery-rails"
+gem "turbolinks"
+gem "sdoc",                     group: :doc
+
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"

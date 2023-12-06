@@ -17,6 +17,7 @@ gem "coffee-rails"
 gem "jquery-rails"
 gem "turbolinks"
 gem "sdoc",                     group: :doc
+gem "rails-controller-testing"
 
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]

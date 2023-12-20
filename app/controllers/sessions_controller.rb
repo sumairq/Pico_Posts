@@ -6,17 +6,18 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:session][:email])
     if user && user.authenticate(params[:session][:password])
       #Log the user in and redirect to the user's show page.
-      log_in user
+      log_in user 
+      params[:session][:remember_me] == '1' ? remember(user) : forget(user) 
       redirect_to user
     else
       # Create an error message.
     flash.now[:danger] = 'Invalid email/password combination'
-    render 'new'
+    render :new, status: 422
     end
   end
 
   def destroy
-    log_out
+    log_out if logged_in?
     redirect_to root_url, status: :see_other
   end
 end

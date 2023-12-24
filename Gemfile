@@ -8,7 +8,6 @@ gem "bcrypt"
 gem "faker"
 gem "carrierwave"
 gem "mini_magick"
-gem "will_paginate"
 gem "bootstrap-will_paginate"
 gem "bootstrap-sass"
 gem "sass-rails"
@@ -18,6 +17,8 @@ gem "jquery-rails"
 gem "turbolinks"
 gem "sdoc",                     group: :doc
 gem "rails-controller-testing"
+gem "kaminari"
+# gem "error_highlight", ">= 0.4.0" 
 
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]

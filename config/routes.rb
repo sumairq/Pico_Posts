@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'password_resets/new'
+  get 'password_resets/edit'
   get 'account_activations/edit'
   get 'sessions/new'
   get 'signup', to: 'users#new'
@@ -11,6 +13,7 @@ Rails.application.routes.draw do
   delete 'logout', to: 'sessions#destroy'
   resources :users
   resources :account_activations, only: [:edit]
+  resources :password_resets, only: [:new, :create, :edit, :update]
 
   root "static_pages#home"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

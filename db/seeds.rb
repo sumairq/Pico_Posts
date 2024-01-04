@@ -1,3 +1,4 @@
+#Users
 User.create!(name: "Example User", email: "example@railstutorial.org", password: "password", password_confirmation: "password", admin: true, activated: true, activated_at: Time.zone.now)
 
 99.times do |n|
@@ -8,8 +9,18 @@ User.create!(name: "Example User", email: "example@railstutorial.org", password:
 
 end 
 
+
+# Microposts
 users = User.order(:created_at).take(6)
 50.times do
     content = Faker::Lorem.sentence(word_count: 5)
     users.each { |user| user.microposts.create!(content: content)}
 end
+
+# Following Relationships
+users = User.all
+user = users.first
+following = users[2..50]
+followers = users[2..40]
+following.each { |followed| user.follow(followed) }
+following.each { |follower| follower.follow(user)}

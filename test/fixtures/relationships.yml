@@ -1,0 +1,15 @@
+one:
+  follower: sumair
+  followed: lana
+
+two:
+  follower: sumair
+  followed: malory
+
+three:
+  follower: lana
+  followed: sumair
+
+four:
+  follower: archer
+  followed: sumair

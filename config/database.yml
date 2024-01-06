@@ -22,8 +22,8 @@ default: &default
 development:
   <<: *default
   database: pico_posts_development
-  username: sumair
-  password: railsdb
+  # username: sumair
+  # password: railsdb
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
@@ -58,8 +58,8 @@ development:
 test:
   <<: *default
   database: pico_posts_test
-  username: sumair
-  password: railsdb
+  # username: sumair
+  # password: railsdb
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -84,6 +84,5 @@ test:
 production:
   <<: *default
   database: pico_posts_production
-  username: sumair
-  password: railsdb
+  username: pico_posts
   password: <%= ENV["PICO_POSTS_DATABASE_PASSWORD"] %>

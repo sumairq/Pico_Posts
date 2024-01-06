@@ -20,6 +20,8 @@ gem "turbolinks"
 gem "sdoc",                     group: :doc
 gem "rails-controller-testing"
 gem "kaminari"
+gem "pg", "~> 1.1"
+
 # gem "error_highlight", ">= 0.4.0" 
 
 

@@ -18,4 +18,4 @@ class StaticPagesController < ApplicationController
 end
 
 
-# About | Ruby on Rails Tutorial Sample App
+# About | Ruby on Rails Tutorial pico posts

@@ -49,7 +49,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Credits
 
-This application was created and maintained by [Your Name] <your-email@example.com>. We would like to thank the Rails community and all the contributors who have helped make this project possible.
+This application was created and maintained by Sumair Qaisar sumairqaisar992@gmail.com. We would like to thank the Rails community and all the contributors who have helped make this project possible.
 
 ## Contact
 

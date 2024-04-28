@@ -1,4 +1,4 @@
-# Microblogging Rails Application
+# Pico Posts (Microblogging Rails Application)
 
 Welcome to Pico Posts Rails Application! This application provides a platform for users to share short posts, follow other users, and engage with content in a social networking style.
 

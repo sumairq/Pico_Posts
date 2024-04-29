@@ -10,7 +10,7 @@ Welcome to Pico Posts Rails Application! This application provides a platform fo
 4. **Feed**: Users have a personalized feed where they can see posts from users they follow.
 5. **Like & Comment**: Users can like and comment on posts.
 
-## Installation
+## Steps for installation
 
 Follow these steps to set up the application:
 

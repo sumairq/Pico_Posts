@@ -12,6 +12,8 @@ Welcome to Pico Posts Rails Application! This application provides a platform fo
 
 ## Steps for installation
 
+prerequisites: ruby "3.0.2" | rails "~> 7.1.2"
+
 Follow these steps to set up the application:
 
 1. Clone the repository: `git clone <repository-url>`
